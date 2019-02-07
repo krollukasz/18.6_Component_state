@@ -53,5 +53,5 @@ var otherCounters = React.createClass({
   )}
 });
 
-var element = React.createElement(Counter);
+var element = React.createElement(otherCounters);
 ReactDOM.render(element, document.getElementById("app"));
