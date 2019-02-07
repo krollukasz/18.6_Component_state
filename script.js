@@ -17,6 +17,40 @@ var Counter = React.createClass({
     });
   },
 
+  /*
+    getDefaultProps: function() {
+      console.log("Ustawienie domyślnych wartości")
+    },
+
+    componentWillMount: function() {
+      console.log("Podłączenie komponentu przed wykoananiem metody 'render'")
+    },
+
+    componentDidMount: function() {
+      console.log("Umożliwia dalsze operacje na utworzonym już elemencie")
+    },
+
+    componentWillReceiveProps: function() {
+      console.log("Aktualizacja stanu komponentu po zmianie właściwości")
+    },
+
+    shouldComponentUpdate: function() {
+      console.log("Sprawdzenie, czy komponent wymaga ponownego renderowania")
+    },
+
+    componentWillUpdate: function() {
+      console.log("Aktualizacja komponentu, następuje w przypadku kiedy poprzednia metoda zwróci wartość 'true'")
+    },
+
+    componentDidUpdate: function() {
+      console.log("Analogicznie do componentDidMount umożliwia dalsze operacje na elemencie")
+    },
+
+    componentWillUnmount: function() {
+      console.log("Usunięcie komponentu po wykonaniu 'zadania'")
+    },
+  */
+ 
   render: function() {
     return React.createElement("div", {},
       React.createElement("span", {}, "Licznik " + this.state.counter),
